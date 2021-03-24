@@ -1,14 +1,15 @@
-:root {
-    background-color: rgb(29, 26, 26)
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 62.5%;
+    font-size: 60%;
 
 }
+
+:root {
+    background-color: rgb(29, 26, 26)
+}
+
 
 h1 {
     font-size: 5.4rem;
@@ -72,12 +73,16 @@ p {
     margin-bottom: 1rem;
     text-decoration: none;
     color: black;
-    background: linear-gradient(90deg, rgb(236, 14, 125) 0%, rgb(236, 14, 218) 100%);
+    background: rgb(236, 14, 125)
 }
 
 .button:hover {
-    cursor:help;
-    box-shadow: 0 0.3rem 1rem 0 purple;
+    cursor:pointer;
+    box-shadow: 0 0.3rem 1rem 0 whitesmoke;
     transition: transform 100ms;
     transform: scale(1.05);
+}
+
+#highscore-button {
+    background: cornflowerblue;
 }
