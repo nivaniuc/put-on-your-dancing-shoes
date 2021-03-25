@@ -13,7 +13,7 @@ Quiz.prototype.getQuestionIndex = function() {
 Quiz.prototype.guess = function(_answer) {
     this.questionIndex++;
 
-    if(this.getQuestionIndex() .correctAnswer (_answer)) {
+    if(this.getQuestionIndex().correctAnswer (_answer)) {
         this.score++;
     }
 }
