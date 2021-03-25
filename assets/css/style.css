@@ -3,12 +3,58 @@ body {
     background-color: grey;
 }
 
-.container {
+.grid {
     width: 600px;
     height: 500px;
     margin: 0 auto;
     background-color: white;
     padding: 10px 50px 50px 50px;
     border-radius:  50px;
+    border: 2px solid blue;
+    box-shadow: 10px 15px 5px blue;
+}
 
+.grid h1 {
+    background-color: cornflowerblue;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid #question {
+    font-size: 30px;
+    color: tomato;
+}
+
+.questions {
+    margin-top: 30px;
+}
+
+#bttn0, #bttn1, #bttn2, #bttn3 {
+    background-color: teal;
+    width: 250px;
+    font-size: 20px;
+    color: thistle;
+    border: 1px solid violet;
+    border-radius: 30px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#progress {
+    color: black;
+    font-size: 18px;
+}
+
+#bttn0:hover, #bttn1:hover, #bttn2:hover, #bttn3:hover {
+     cursor:pointer;
+     background-color: blueviolet;
+}
+
+#bttn0:focus, #bttn0:focus, #bttn0:focus, #bttn0:focus {
+    
 }
