@@ -2,7 +2,11 @@ function populate() {
     if(quiz.isEnded()) {
         //showScores();
     }
+    else {
 
+        var element = document.getElementById("question");
+        element.innerHTML = quiz.getQuestionIndex().text;
+    }
 }
 
 var questions = [
