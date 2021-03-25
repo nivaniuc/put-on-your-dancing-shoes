@@ -10,13 +10,25 @@
 </head>
 <body>
     <div class="contianer">
-        <div id="home" class="flex-column flex-center">
+        <div id="quiz">
             <h1>Coding Quiz Challenge</h1>
-            <p>Try to answer the following code-related questions within the time limit! Keep in mind that wrong answers penalize your score and time by 10 seconds.</p>
-            <a id="start" class="button">Start Quiz</a>
-            <a id="highscore-button" class="button">
-                High Scores </a>   
+            <hr style="margin-top: 20px;">
+            
+            <p id="question"></p>
+
+            <div class="questions">
+                <button id="bttn1"><span id="choice0"></span></button>
+                <button id="bttn2"><span id="choice1"></span></button>
+                <button id="bttn3"><span id="choice2"></span></button>
+                <button id="bttn4"><span id="choice3"></span></button>
+            </div>
+
+         <hr style="margin-top: 50px">
+         <footer>
+            <p id="progress">Question x of y.</p>
+        </footer>
         </div>
+    </div>
 
     <script src="assets/javascript/script.js"></script>
 </body>
