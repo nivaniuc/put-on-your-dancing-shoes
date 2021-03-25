@@ -56,5 +56,5 @@ body {
 }
 
 #bttn0:focus, #bttn0:focus, #bttn0:focus, #bttn0:focus {
-    
+    outline: 0;
 }
